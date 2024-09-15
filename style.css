@@ -20,13 +20,14 @@ body{
     color: white;   
 }
 header{
-    margin-top: 20px;
-    position: fixed;
+    margin-top: 50px;
+    position: static;
     top: 0;
     left: 0;
     width: 100%;
     padding: 1rem 9%;
     height: 15vh;
+    margin-bottom: 10px;
     background-color: transparent;
     filter:drop-shadow(10px);
     display: flex;
@@ -36,6 +37,7 @@ header{
 }
 .logo{
     color:#f17229;
+    /* padding-top: 100%; */
     font-size: 3rem;
     font-weight: 800;
     cursor: pointer;
@@ -61,8 +63,9 @@ nav a.active{
 }
 @media(max-width:995px){
     nav{
-        position: absolute;
+        position:absolute;
         display: none;
+        /* padding-top: 100px; */
         top: 0%;
         right:0;
         width: 40%;
@@ -74,7 +77,7 @@ nav a.active{
         border-top-right-radius: 1.2rem;
         padding: 1rem solid;
         background-color: rgb(43, 41, 42);
-       background-color: white; 
+       background-color: transparent; 
         border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
     }
     nav.active{
@@ -90,7 +93,10 @@ nav a.active{
         padding: 1rem;
         border-radius: 0.5rem;
         border-bottom: 0.5 solid #b74b4b;
-
+    }
+    .home-img{
+        /* border-radius: 50%; */
+    margin-top: 500px;
     }
 }
 section{
@@ -109,6 +115,7 @@ section{
     font-weight: 700;
     line-height:0.5;
     margin-top: 100px;
+    margin-top: 5px;
 }
 span{
     color: #f17229;
@@ -121,6 +128,7 @@ span{
 }
 .home-img{
     border-radius: 50%;
+    margin-top: -400px;
 }
 .home-img img{
     position: relative;
@@ -236,23 +244,26 @@ color:#f97822;
 }
 .typing-text span::after{
     content: "";
-    background-color: black;
+    background-color: transparent;
     position: absolute;
-    width: calc(100% + 0.8px);
-    /* height: 5%; */
-    /* border-left: 3px soldi black; */
-    /* right: -8px; */
-    /* animation: cursor 0.6s infinite; */
-    font-family: monospace;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 4px solid;
-    width: 10ch;
-    animation: typing 6s steps(10) infinite, blink-caret 0.75s step-end infinite;
+    width: calc(100% + px);
+    height: 110%;
+    /* border-left: 3px soldi black;
+    right: -12px;
+    animation: cursor 0.6s infinite; */
+    /* font-family: monospace; */
+    /* white-space: nowrap; */
+    /* overflow: hidden; */
+    /* border-right: 4px solid; */
+    /* width: 10ch; */
+    /* animation: typing 6s steps(10) infinite, blink-caret 0.75s step-end infinite; */
 }
 @keyframes cursor{
     to{
-        border-left: 1.5px #f97822;
+        border-left: 3px solid #f97822;
+        border-bottom: 3px;
+        border-top: 10px;
+        /* margin-top: 10px; */
     }
 }
 @keyframes blink-caret {
@@ -295,21 +306,25 @@ color:#f97822;
     }
     .home-content h1{
         font-size: 5rem;
+        border-bottom: 10rem;
+        padding-bottom: 10rem;
+        /* line-height: 1.5; */
     }
     .home-img img{
         width: 70vw;
         margin-top: 4rem;
     }
+    .home-img{
+        border-radius: 50%;
+        margin-top: -150px;
+        margin-bottom: 10px;
+        }
 }
 .social-icon img{
   width: 100%;
   height: 100%;
   border-radius: 50%;
 }
-
-
-
-
 button {
     text-transform: uppercase;
     font-weight: 300;
