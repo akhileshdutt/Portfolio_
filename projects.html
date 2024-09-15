@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Designer Portfolio</title>
+    <style>body {
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f5f5f5;
+    }
+    
+    header {
+        background-color: #fff;
+        padding: 20px 0;
+    }
+    
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    
+    nav li {
+        display: inline-block;
+        margin: 0 15px;
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+    }
+    
+    .hero {
+        background-color: #fff;
+        padding: 80px 0;
+        text-align: center;
+        background-image: url('38_modern_web_design.png');
+        background-size:cover;
+        background-position: 0rem;
+    }
+    
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    
+    .hero-content {
+        display: inline-block;
+        margin-bottom: 40px;
+        color: white;
+    }
+
+    
+    h1 {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    h1:hover{
+        cursor: pointer;
+    }
+    
+    p {
+        font-size: 16px;
+        line-height: 1.5;
+        color: #666;
+    }
+    
+    .btn {
+        background-color: #333;
+        color: #fff;
+        padding: 15px 30px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    .btn:hover {
+        background-color: #555;
+    }
+    
+    .services {
+        padding: 80px 0;
+        text-align: center;
+    }
+    
+    .services-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 30px;
+        margin-top: 40px;
+    }
+    
+    .service {
+        background-color:transparent;
+        padding: 30px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .service img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    
+    .service h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    
+    
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+    }
+    
+    @media (max-width: 768px) {
+        .hero-content, .hero-image {
+            display: block;
+        }
+    
+        .hero-image img {
+            width: 100%;
+        }
+    
+        .services-grid {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    
+        .clients-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .logo{
+            background-color: transparent;
+            margin-top: 0px;
+        }
+    }</style>
+
+</head>
+<body>
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>My Work</h1>
+            </div>
+        </div>
+    </section>
+    <section class="services">
+        <div class="container">
+            <h2>I have done many projects in Cyber Security and Web Development, some are mentioned below.👇</h2>
+            <div class="services-grid">
+                <div class="service">
+                    <img src="ss.png" alt="Service 1">
+                    <h3>Password Strength checker</h3>
+                    <p>It checks the Strength of the password, by recognising no. of Char, numbers, symbols, etc. Also tels that how much time it would take to crack it by using python.</p>
+                </div>
+                <div class="service">
+                    <img src="tree.png" alt="Service 2">
+                    <h3>Forest Resources</h3>
+                    <p>A website showcasing the importance of forest resources, highlighting various forest types, ecosystems, and sustainable practices, with interactive elements for user engagement and environmental awareness.</p>
+                </div>
+                <div class="service">
+                    <img src="rps.jpg" alt="Service 3">
+                    <h3>Rock paper Scissor</h3>
+                    <p>Rock Paper Scissors Game: Created an interactive game using JavaScript, HTML, and CSS. Features include player vs. computer gameplay, dynamic score tracking, and instant feedback, showcasing skills in game logic and DOM manipulation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 HigmarInteractive. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>// Smooth scrolling for navigation links
+        const navLinks = document.querySelectorAll('nav a');
+        
+        navLinks.forEach(link => {})
+          link.addEventListener</script>
+</body>
+</html>
