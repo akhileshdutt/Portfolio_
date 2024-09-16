@@ -33,15 +33,11 @@ I am a B.Tech Cybersecurity student at Lovely Professional University with a str
 
 ## Usage
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/akhileshdutt/portfolio-website.git
-    ```
-2. Navigate to the project directory:
+1. Navigate to the project directory:
     ```bash
     cd portfolio-website
     ```
-3. Open `index.html` in your browser to view the website.
+2. Open `index.html` in your browser to view the website.
 
 ## Live Demo
 
