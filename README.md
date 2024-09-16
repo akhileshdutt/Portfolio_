@@ -45,7 +45,7 @@ I am a B.Tech Cybersecurity student at Lovely Professional University with a str
 
 ## Live Demo
 
-Check out the live demo of my portfolio [here](https://your-live-demo-link.com).
+Check out the live demo of my portfolio [here](https://portfolio-omega-sepia-21.vercel.app/).
 
 ## Contact
 
