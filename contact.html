@@ -280,7 +280,7 @@
     <div class="description">Dark Mode</div>
   </div>
       
-      <h1>Contact us</h1>
+      <h1>Contact</h1>
       <p>Planning to make your work available to world, we can help, please do share your contact details, We'll reach you out.</p>
       
       <form id="contact-form" method="post">
@@ -293,10 +293,16 @@
         <!--<a href="javascript:void(0)">--><button type="submit" id="submit" name="submit">Send</button><!--</a>-->
     
   </form>
+  <!-- <form id="emailForm"> -->
+    <!-- <input type="text" id="emailInput" placeholder="akhileshdatt093@gmail.com" /> -->
+    <!-- <button type="submit">Send</button> -->
+  <!-- </form> -->
+  <p id="message"></p>
   <div id="error"></div>
   <div id="success-msg"></div>
     </div>
-  </div>
+  </div>  
+
   <script>const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
     
     function switchTheme(e) {
@@ -359,5 +365,6 @@
       return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
     }
     
-    submitBtn.addEventListener('click', validate);</script>
+    submitBtn.addEventListener('click', validate);
+  </script>
   <!-- Image credit: Oliver Sjöström https://www.pexels.com/photo/body-of-water-near-green-mountain-931018/  -->
