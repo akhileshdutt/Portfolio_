@@ -130,18 +130,23 @@ span{
     border-radius: 50%;
     margin-top: -400px;
 }
+/* .home-img:hover{
+    box-shadow: #f97822;
+} */
 .home-img img{
     position: relative;
     width: 22vw;
     border-radius: 80%;
     margin-top: 5rem;
-    box-shadow: 0 0 25px solid #b7b7b7;
-    cursor: pointer;
+    /* box-shadow: 0 0 25px solid #b7b7b7; */
+    cursor:pointer;
     transition: 0.2s linear;
+    box-shadow: #f97822;
 }
 .home-img img:hover{
     font-size: 1.8rem;
     font-weight: 500;
+    box-shadow: 0 0 25px solid #f97822;
 }
 .social-icon:hover{
 color:#f97822;
