@@ -280,19 +280,19 @@ color:#f97822;
     }
 }
 @keyframes words{
-    0%, 20%{
+    0%, 25%{
         content:"Web developer";
     }
-    21%, 40%{
+    /* 26%, 50%{
     content: "Data Analyst";
-    }
-    41%, 60%{
+    } */
+    26%, 50%{
     content: "Cyber Security Professional";
     }
-    61%, 80%{
+    51%, 75%{
         content:"Full-Stack Developer";
     }
-    81%, 100%{
+    76%, 100%{
         content:"Freelancer";
     }
 }
