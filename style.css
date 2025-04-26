@@ -14,6 +14,22 @@
     transform-origin: 70% 70%;
   }
 
+/* To remove the scroll bar */
+
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  html::-webkit-scrollbar, body::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* removing scrollbar code is upto here */
+
   @keyframes wave-animation {
     0% { transform: rotate(0deg); }
     10% { transform: rotate(14deg); }
@@ -43,7 +59,7 @@ body{
     height: 100vh;
     overflow-x: hidden;
     background-color: black;
-    color: white;   
+    color: white;
 }
 header{
     margin-top: 50px;
