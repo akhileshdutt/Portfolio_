@@ -13,7 +13,7 @@
     animation: wave-animation 2s infinite;
     transform-origin: 70% 70%;
   }
-  
+
   @keyframes wave-animation {
     0% { transform: rotate(0deg); }
     10% { transform: rotate(14deg); }
@@ -25,6 +25,15 @@
     100% { transform: rotate(0deg); }
   }
   
+  #floating-icon {
+    animation: float 2s ease infinite;
+  }
+  
+  @keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+  }
 
 html{
     font-size:80.2%
