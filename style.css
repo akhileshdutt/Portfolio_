@@ -58,8 +58,8 @@ nav a{
 }
 nav a:hover,
 nav a.active{
-    color:rgb(247, 176, 44);
-    border-bottom: 3px solid #f17229;
+    color:#f97822;
+    /* border-bottom: 3px solid #f17229; */
 }
 @media(max-width:995px){
     nav{
@@ -138,15 +138,17 @@ span{
     width: 22vw;
     border-radius: 80%;
     margin-top: 5rem;
-    /* box-shadow: 0 0 25px solid #b7b7b7; */
     cursor:pointer;
-    transition: 0.2s linear;
+    transition: 2s linear;
     box-shadow: #f97822;
 }
 .home-img img:hover{
     font-size: 1.8rem;
     font-weight: 500;
-    box-shadow: 0 0 25px solid #f97822;
+    cursor: pointer;
+    box-shadow: 0 0 60px #f3f3f3;
+    transition: 0.5s ease;
+    justify-content: center;
 }
 .social-icon:hover{
 color:#f97822;
@@ -244,7 +246,7 @@ color:#f97822;
 }
 .typing-text span::before{
     content:"Web Developer";
-    color:#f97822;
+    color:#f9f9f9;
     animation: words 20s infinite;
 }
 .typing-text span::after{
@@ -265,7 +267,7 @@ color:#f97822;
 }
 @keyframes cursor{
     to{
-        border-left: 3px solid #f97822;
+        border-left: 3px solid #ffffff;
         border-bottom: 3px;
         border-top: 10px;
         /* margin-top: 10px; */
@@ -281,19 +283,19 @@ color:#f97822;
 }
 @keyframes words{
     0%, 25%{
-        content:"Web developer";
+        content:"Hello";
     }
     /* 26%, 50%{
     content: "Data Analyst";
     } */
     26%, 50%{
-    content: "Cyber Security Professional";
+    content: "नमस्ते";
     }
     51%, 75%{
-        content:"Full-Stack Developer";
+        content:"Hola";
     }
     76%, 100%{
-        content:"Freelancer";
+        content:"Bonjour";
     }
 }
 @media (max-width: 1000px){
